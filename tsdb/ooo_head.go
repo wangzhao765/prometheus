@@ -17,8 +17,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/prometheus/prometheus/tsdb/chunkenc"
-	"github.com/prometheus/prometheus/tsdb/tombstones"
+	"github.com/prometheus/prometheus/v2/tsdb/chunkenc"
+	"github.com/prometheus/prometheus/v2/tsdb/tombstones"
 )
 
 // OOOChunk maintains samples in time-ascending order.

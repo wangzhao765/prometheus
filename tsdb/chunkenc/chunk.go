@@ -19,7 +19,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/prometheus/prometheus/model/histogram"
+	"github.com/prometheus/prometheus/v2/model/histogram"
 )
 
 // Encoding is the identifier for a chunk encoding.

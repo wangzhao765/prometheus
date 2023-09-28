@@ -29,7 +29,7 @@ import (
 	"go.uber.org/goleak"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/prometheus/prometheus/discovery/targetgroup"
+	"github.com/prometheus/prometheus/v2/discovery/targetgroup"
 )
 
 var (
